@@ -1,0 +1,39 @@
+body{
+	margin: 0px;
+}
+.row{
+	clear: both;
+}
+.cell-big{
+	width: 100%;
+	padding: 40px;
+	background-color: #77D429;
+	text-align: center;
+	box-sizing: border-box;
+	height: 19vh;
+}
+.cell-small{
+	width: 33.3%;
+	padding: 40px 20px;
+	float: left;
+	box-sizing: border-box;
+	text-align: center;
+}
+.img-responsive{
+	max-width: 80%;
+}
+.parrafo{
+	margin-top: 24px;
+	font-size: 2vh;
+}
+.titulo{
+	text-align: center;
+	font-size: 3.5vh;
+}
+
+
+@media (max-width: 480px) {
+ 	.cell-small{
+		width: 100%;
+	}
+}
